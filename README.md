@@ -16,7 +16,7 @@ Generated scaffold for the thoughts table.
 Connected thoughts to users.
 Created curl scripts to create thoughts and to generate a user to test the backend.
 Made thoughts a protected controller, they are unique to the user and should only be seen by the user.
-
+Began working on front-end to get the skeleton setup.
 
 ## Problem Solving
 
