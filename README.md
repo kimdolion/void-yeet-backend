@@ -1,4 +1,4 @@
-# yeet-into-void
+# Void-Yeet-Backend
     A fullstack SPA built during General Assembly's Software Engineering Immersive.
     A simple CRUD with one to many resource relationships.
     This is an app you can use to catalog and throw away negative thoughts/feelings in a more fun way.
