@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ThoughtsController < ApplicationController
+class ThoughtsController < ProtectedController
   before_action :set_thought, only: %i[show update destroy]
 
   # GET /thoughts
@@ -17,7 +17,7 @@ class ThoughtsController < ApplicationController
 
   # POST /thoughts
   def create
-    @thought = Thought.new(thought_params)
+    @thought = current_user.thoughts.build(thought_params)
 
     if @thought.save
       render json: @thought, status: :created, location: @thought
@@ -44,7 +44,7 @@ class ThoughtsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def set_thought
-    @thought = Thought.find(params[:id])
+    @thought = current_user.thoughts.find(params[:id])
   end
 
   # Only allow a trusted parameter "white list" through.
