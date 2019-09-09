@@ -1,10 +1,10 @@
 #!/bin/bash
 
-curl "http://localhost:4741/thoughts" \
+curl "http://localhost:4741/thoughts/${ID}" \
   --include \
-  --request POST \
-  --header "Content-Type: application/json" \
+  --request PATCH \
   --header "Authorization: Token token=${TOKEN}" \
+  --header "Content-Type: application/json" \
   --data '{
     "thought": {
       "words": "'"${WORDS}"'"
