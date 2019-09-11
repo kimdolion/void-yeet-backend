@@ -7,8 +7,11 @@ To be more specific, to yeet the bad thoughts into the darkness, where they can 
 The backend maintains a one to many relationship between users and their thoughts.
 
 -[Void-Yeet Github Pages Client](https://kimdolion.github.io/void-yeet-client/)
+
 -[Void-Yeet Heroku Client](https://void-yeet.herokuapp.com)
+
 -[Void-Yeet Backend Repo](https://github.com/kimdolion/void-yeet-backend)
+
 -[Void-Yeet Frontend Repo](https://github.com/kimdolion/void-yeet-client)
 
 ## Technologies Used
@@ -37,7 +40,6 @@ N/A
 [User Stories](https://docs.google.com/document/d/1mT_4jPHt9VJXNKliIf85UhxIWa60qeKjdIjKgMj0N6c/edit?usp=sharing)
 
 [ERD](https://docs.google.com/document/d/1GELci8kxVrlS7039vx3CMMipWjQ_RotPNJauMfnQScE/edit?usp=sharing)
-
 
 ## Stretch goals
 - Add localized mental health resources based on user's location?
