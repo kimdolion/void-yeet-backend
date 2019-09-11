@@ -1,4 +1,4 @@
-<% project_name = 'void-yeet' %>
+<% project_name = 'void-yeet-backend' %>
 
 default: &default
   adapter: postgresql
