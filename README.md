@@ -1,14 +1,12 @@
 # Void-Yeet-Backend
-    A fullstack SPA built during General Assembly's Software Engineering Immersive.
-    A simple CRUD with one to many resource relationships.
-    This is an app you can use to catalog and throw away negative thoughts/feelings in a more fun way.
-    To be more specific, to yeet the bad thoughts into the darkness, where they can live away from you, or be permanently deleted.
 
-<<<<<<< HEAD
-[Void-Yeet Github Pages Client]()
-=======
+A fullstack SPA built during General Assembly's Software Engineering Immersive.
+A simple CRUD with one to many resource relationships.
+This is an app you can use to catalog and throw away negative thoughts/feelings in a more fun way.
+To be more specific, to yeet the bad thoughts into the darkness, where they can live away from you, or be permanently deleted.
+The backend maintains a one to many relationship between users and their thoughts.
+
 [Void-Yeet Github Pages Client](https://kimdolion.github.io/void-yeet-client/)
->>>>>>> setup
 [Void-Yeet Heroku Client](https://void-yeet.herokuapp.com)
 [Void-Yeet Backend Repo](https://github.com/kimdolion/void-yeet-backend)
 [Void-Yeet Frontend Repo](https://github.com/kimdolion/void-yeet-client)
@@ -41,6 +39,12 @@ N/A
 [ERD](https://docs.google.com/document/d/1GELci8kxVrlS7039vx3CMMipWjQ_RotPNJauMfnQScE/edit?usp=sharing)
 
 
+## Stretch goals
+- Add localized mental health resources based on user's location?
+- Connect local mental health resources to the user table.
+
+## Additional Resources
+[Heroku](https://void-yeet.herokuapp.com/examples)
 ## Stretch goals
 - Add localized mental health resources based on user's location?
 - Connect local mental health resources to the user table.
