@@ -6,10 +6,10 @@ This is an app you can use to catalog and throw away negative thoughts/feelings 
 To be more specific, to yeet the bad thoughts into the darkness, where they can live away from you, or be permanently deleted.
 The backend maintains a one to many relationship between users and their thoughts.
 
-[Void-Yeet Github Pages Client](https://kimdolion.github.io/void-yeet-client/)
-[Void-Yeet Heroku Client](https://void-yeet.herokuapp.com)
-[Void-Yeet Backend Repo](https://github.com/kimdolion/void-yeet-backend)
-[Void-Yeet Frontend Repo](https://github.com/kimdolion/void-yeet-client)
+-[Void-Yeet Github Pages Client](https://kimdolion.github.io/void-yeet-client/)
+-[Void-Yeet Heroku Client](https://void-yeet.herokuapp.com)
+-[Void-Yeet Backend Repo](https://github.com/kimdolion/void-yeet-backend)
+-[Void-Yeet Frontend Repo](https://github.com/kimdolion/void-yeet-client)
 
 ## Technologies Used
 Ruby on Rails
