@@ -5,7 +5,7 @@ class ThoughtsController < ProtectedController
 
   # GET /thoughts
   def index
-    @thoughts = current_user.thoughts.all
+    @thoughts = current_user.thoughts.all.order("created_at ASC")
 
     render json: @thoughts
   end
